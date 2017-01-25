@@ -1,0 +1,338 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#eee">
+
+        <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Amazon Jungle Losing More Trees Than Expected"
+                    android:layout_height="50dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/forest_destriction"
+                            android:id="@+id/article_image"
+                            android:layout_margin="10dp"
+                            android:scaleType="centerCrop"/>
+
+                        <TextView
+                            android:id="@+id/article_impact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Impact: medium"/>
+
+                        <TextView
+                            android:id="@+id/article_something"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Jan 2, 2017"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/article_content_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:maxLines="7"
+                        android:ellipsize="end"
+                        android:text="Deforestation of the Amazon rainforest accelerated significantly between 1991 and 2004, reaching an annual forest loss rate of 27,423 km² in 2004. Though the rate of deforestation has been slowing since 2004 (with re-accelerations in 2008 and 2013), the remaining forest cover continues to dwindle.">
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:id="@+id/article_publisher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:textStyle="italic"
+                        android:text="The Independent"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/article_read_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:text="Read Article"
+                        android:layout_weight="3"
+                        android:textColor="#3a73c1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Amazon Jungle Losing More Trees Than Expected"
+                    android:layout_height="50dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/forest_destriction"
+                            android:id="@+id/article_image"
+                            android:layout_margin="10dp"
+                            android:scaleType="centerCrop"/>
+
+                        <TextView
+                            android:id="@+id/article_impact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Impact: medium"/>
+
+                        <TextView
+                            android:id="@+id/article_something"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Jan 2, 2017"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/article_content_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:maxLines="7"
+                        android:ellipsize="end"
+                        android:text="Deforestation of the Amazon rainforest accelerated significantly between 1991 and 2004, reaching an annual forest loss rate of 27,423 km² in 2004. Though the rate of deforestation has been slowing since 2004 (with re-accelerations in 2008 and 2013), the remaining forest cover continues to dwindle.">
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:id="@+id/article_publisher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:textStyle="italic"
+                        android:text="The Independent"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/article_read_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:text="Read Article"
+                        android:layout_weight="3"
+                        android:textColor="#3a73c1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    android:layout_width="match_parent"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="Amazon Jungle Losing More Trees Than Expected"
+                    android:layout_height="50dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            app:srcCompat="@drawable/forest_destriction"
+                            android:id="@+id/article_image"
+                            android:layout_margin="10dp"
+                            android:scaleType="centerCrop"/>
+
+                        <TextView
+                            android:id="@+id/article_impact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Impact: high"/>
+
+                        <TextView
+                            android:id="@+id/article_something"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"
+                            android:maxLines="1"
+                            android:text="Jan 2, 2017"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/article_content_preview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:maxLines="7"
+                        android:ellipsize="end"
+                        android:text="Deforestation of the Amazon rainforest accelerated significantly between 1991 and 2004, reaching an annual forest loss rate of 27,423 km² in 2004. Though the rate of deforestation has been slowing since 2004 (with re-accelerations in 2008 and 2013), the remaining forest cover continues to dwindle.">
+                    </TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="4"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:id="@+id/article_publisher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:textStyle="italic"
+                        android:text="The Independent"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/article_read_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="1"
+                        android:text="Read Article"
+                        android:layout_weight="3"
+                        android:textColor="#3a73c1"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>
